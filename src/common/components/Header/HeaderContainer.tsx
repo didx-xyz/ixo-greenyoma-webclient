@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 import { RootState } from 'common/redux/types'
 import { EntityType } from 'modules/Entities/types'
 import * as entitiesSelectors from 'modules/Entities/EntitiesExplorer/EntitiesExplorer.selectors'
-import { HeaderLeft } from './HeaderLeft/HeaderLeft'
+
 import { HeaderRight } from './HeaderRight/HeaderRight'
 import MediaQuery from 'react-responsive'
 import { deviceWidth } from 'lib/commonData'
@@ -22,6 +22,7 @@ import {
 import Success from 'assets/icons/Success'
 import blocksyncApi from 'common/api/blocksync-api/blocksync-api'
 import keysafe from 'common/keysafe/keysafe'
+import { HeaderLeft } from '../YomaHeader/HeaderLeft/HeaderLeft'
 
 export interface State {
   responseTime: number | null

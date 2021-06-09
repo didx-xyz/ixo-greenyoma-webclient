@@ -1,5 +1,4 @@
-import * as React from 'react'
-import Search from '../Search/Search'
+import * as React from 'react' 
 import {
   ContainerInner,
   StatisticContainer,
@@ -16,6 +15,7 @@ import MediaQuery from 'react-responsive'
 import { deviceWidth } from 'lib/commonData'
 import CreateEntityDropDown from 'modules/Entities/CreateEntity/components/CreateEntityDropdown/CreateEntityDropdown'
 import HeaderTabs from 'common/components/HeaderTabs/HeaderTabs'
+import Search from 'modules/YomaEntities/EntitiesExplorer/components/Search/Search'
 // TODO - when we know what the other entity types headers will look like then possibly refactor this as it's messy with all the conditions
 // or whatever else is needed. For now, just doing it based on entityType
 
